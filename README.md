@@ -84,74 +84,25 @@ updateFile - מקבלת קובץ ואחראית על לעדכן משתנים (ו
 </ul>
 
 <h3>
-הערות:
-</h3>
-הייתי צריך לשנות טיפה את הhtml - תיראו בpr
-אחרי בדיקה, הייתה לי טעות קטנה. הפרמטר שמקבלים בשימוש addEventListener הוא אכן event.
-ואילו כאשר ניגשים מהhtml אל הjs ומעבירים את this, נקבל את האלמנט כפרמטר (ראו בקובץ html).
-אם נכתוב בhtml:
-onchange="onFileInputChange(event)"
-נקבל את event (כמו בשימוש ב addEventListener)
-שימו לב שהוספתי תיקון לבאג שכנראה יש לכולכם: onclick שהעברתי לfile input הוא כדי שיהיה אפשר לבחור את אותו הקובץ פעמיים ברצף.
-קישור לבעיה + פתרון:
-https://stackoverflow.com/questions/4109276/how-to-detect-input-type-file-change-for-the-same-file
-שימו לב שאנחנו קוראים מהלוקל סטורג׳ רק פעם אחת (בניגוד לפתרון שראינו בסשן)
 תרגישו חופשי להשתמש בקוד או אולי אפילו לשפר אותו :)
+</h3>
 
-## </div>
 
-### Table of Contents
 
-- [Challenge Languages](#Languages)
-- [Instructions](#Instructions)
-- [Style Guide](#Style-Guide)
-- [Preview](#Preview)
+</div>
+<div dir="rtl">
+<h3>
+מצרף פה ציור שעוזר לעקוב אחרי הקוד
+</h3>
+<h4>
+בתכלס הציור לא מדויק, אבל זה עוזר להבין פחות או יותר את התמונה מלמעלה
+</h4>
 
----
+<h4>
+הflow הרגיל:
+</h4>
+![!init](./architecture/init.jpeg)
 
-## Languages
-
-- HTML
-- CSS
-
----
-
-## Instructions
-
-- [ ] Clone this repository.
-- [ ] Checkout to the starting-files branch
-- [ ] Try to mimic the site listed bellow.
-- [ ] (optional) mimic the mobile design as well for mobile users.
-
----
-
-## STYLE GUIDE:
-
-Please fill free to use this style guide to complete the task.
-
-### Colors:
-
-    Progress bar gradient = hsl(6, 100%, 80%) to hsl(335, 100%, 65%)
-    Site background = hsl(229, 57%, 11%)
-    Floating sections = hsl(228, 56%, 26%)
-    Text 1 color = hsl(229, 7%, 55%)
-    Text 2 color = white
-    Icon color = hsl(243, 100%, 93%)
-
-### Fonts (google font):
-
-    main = 'Raleway' , 22.4px , regular
-    headline = 'Raleway' , 48px , bold
-
-### Positions:
-
-    Row Width = 80%
-    Col Gap = 32px;
-
----
-
-## Preview
-
-![!preview](./design/desktop-design.jpg)
-
-**GOOD LUCK!**🚀
+<h4>flow כשמעלים קובץ</h4>
+![!uploadFile](./architecture/uploadFile.jpeg)
+</div>
