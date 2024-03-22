@@ -18,9 +18,7 @@
 </h2>
 
 <h3 dir="rtl" style="text-decoration: underline;">
-<ins>
-initApp - אחראית על איתחול האפליקציה
-</ins>
+<ins>initApp</ins> - אחראית על איתחול האפליקציה
 </h3>
 <ul>
 <li>
@@ -34,9 +32,7 @@ initApp - אחראית על איתחול האפליקציה
 </li>
 </ul>
 <h3 dir="rtl" style="text-decoration: underline;">
-<ins>
-updateDashboard - מקבלת את מספר הבייטים בשימוש ואחראית על עידכון המסך
-</ins>
+<ins>updateDashboard</ins> - מקבלת את מספר הבייטים בשימוש ואחראית על עידכון המסך
 </h3>
 <ul>
 <li>
@@ -47,9 +43,7 @@ updateDashboard - מקבלת את מספר הבייטים בשימוש ואחר�
 </li>
 </ul>
 <h3 dir="rtl">
-<ins>
-updateSizes - פונקציה שתעדכן את המספרים והיחידות מידה במסך
-</ins>
+<ins>updateSizes</ins> - פונקציה שתעדכן את המספרים והיחידות מידה במסך
 </h3>
 <ul>
 <li>
@@ -63,9 +57,7 @@ updateSizes - פונקציה שתעדכן את המספרים והיחידות �
 </li>
 </ul>
 <h3 dir="rtl">
-<ins>
-getFormattedBytes - מקבלת מספר בייטים ומחזירה אותם בצורה יפה יותר (מגה בייט, גיג׳ה בייט וכו׳)
-</ins>
+<ins>getFormattedBytes</ins> - מקבלת מספר בייטים ומחזירה אותם בצורה יפה יותר (מגה בייט, גיג׳ה בייט וכו׳)
 </h3>
 <ul>
 <li>
@@ -76,9 +68,7 @@ getFormattedBytes - מקבלת מספר בייטים ומחזירה אותם ב�
 </li>
 </ul>
 <h3 dir="rtl">
-<ins>
-onFileInputChange - אחראית לבדוק אם הקובץ הוא תמונה
-</ins>
+<ins>onFileInputChange</ins> - אחראית לבדוק אם הקובץ הוא תמונה
 </h3>
 <ul>
 <li>
@@ -89,9 +79,7 @@ onFileInputChange - אחראית לבדוק אם הקובץ הוא תמונה
 </li>
 </ul>
 <h3 dir="rtl">
-<ins>
-updateFile - מקבלת קובץ ואחראית על לעדכן משתנים (ולוקל סטורג׳)
-</ins>
+<ins>updateFile</ins> - מקבלת קובץ ואחראית על לעדכן משתנים (ולוקל סטורג׳)
 </h3>
 <ul>
 <li>
@@ -124,7 +112,7 @@ updateFile - מקבלת קובץ ואחראית על לעדכן משתנים (ו
 
 <h3 dir="rtl">
 <ins>
-flow כשמעלים קובץ
+flow כשמעלים קובץ:
 </ins>
 </h3>
 
