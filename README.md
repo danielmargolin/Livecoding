@@ -87,9 +87,9 @@ updateFile - מקבלת קובץ ואחראית על לעדכן משתנים (ו
 תרגישו חופשי להשתמש בקוד או אולי אפילו לשפר אותו :)
 </h3>
 
-
-
 </div>
+<br/>
+<br/>
 <div dir="rtl">
 <h3>
 מצרף פה ציור שעוזר לעקוב אחרי הקוד
@@ -101,8 +101,13 @@ updateFile - מקבלת קובץ ואחראית על לעדכן משתנים (ו
 <h4>
 הflow הרגיל:
 </h4>
+
+
 ![!init](./architecture/init.jpeg)
 
 <h4>flow כשמעלים קובץ</h4>
+
 ![!uploadFile](./architecture/uploadFile.jpeg)
+
+
 </div>
